@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react-jsx",
+    "declaration": true,
+    "outDir": "types"
+    // "emitDeclarationOnly": true,
+    // "baseUrl": ".",
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["./src/stories"]
+}
+
+// TODO:
+// - Test this in a project and make sure it imports properly
+//   - Do types work automatically or will I need to figure out including those?
+// - Decide whether I want to make components default exports or use destructuring
